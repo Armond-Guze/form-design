@@ -52,6 +52,7 @@ function RegistrationForm() {
       <div className="mb-4">
         <label className="block text-gray-700">Email:</label>
         <input
+        // dfsdf
           type="email"
           name="email"
           value={formData.email}
