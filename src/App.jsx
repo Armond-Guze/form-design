@@ -1,10 +1,14 @@
-import React from 'react'
-import RegistrationForm from './components/RegistrationForm'
+import React from "react";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div><RegistrationForm /></div>
-  )
-}
+    <div>
+      <Hero />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
